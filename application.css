@@ -1,0 +1,57 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+.header {
+    height: 50px;
+    padding: 5px 50px;
+    margin-bottom: 20px;
+    background-color: #6a1b9a;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, .5)
+}
+
+.header img {
+    height: 45px;
+}
+
+.header span {
+    margin-left: 15px;
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: bold;
+    vertical-align: bottom;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    background-color: #eeeeee;
+    color: #9d9d9d;
+    box-shadow: 0 -1px 10px 0 rgba(0, 0, 0, .3)
+}
+
+.footer .fa-btc {
+    float: left;
+    line-height: 40px;
+}
+
+.footer span {
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer .fa-star {
+    float: right;
+    line-height: 40px;
+}
